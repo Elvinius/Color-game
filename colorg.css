@@ -1,0 +1,113 @@
+/*General styles*/
+
+* {
+	 box-sizing: border-box;
+}
+
+#container {
+	 margin: 20px auto;
+	 width:80%;
+	 max-width: 600px;
+	 height:600px;
+	 text-align: center;	 
+}
+
+
+
+body {
+	 background: #232323;
+	 font-family: "Montserrat", "Avenir";
+	 font-weight: normal;
+	 margin-top: 0;
+}
+
+/*Header styles*/
+
+.header-wrapper {
+	background: steelblue;
+	padding: .8em 0;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1.1;
+	font-weight: normal;
+
+}
+
+#wrapper {
+	background: white;
+	text-align: center;
+	height: 30px;
+	
+}
+
+#hone {
+	font-size: 130%;
+
+}
+
+.active {
+	background-color: steelblue;
+	color:white;
+	
+}
+
+ button{
+	background-color: none;
+	color: steelblue;
+	border: none;
+	height: 100%;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all .4s;
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s; 
+	outline: none !important;
+}
+button:hover {
+ background-color: steelblue;
+ color:white;
+ height: 100%;
+ 
+ 
+}
+
+#attempt {
+	display: inline-block;
+	width: 20%;
+
+}
+/*main content styles*/
+
+.square {
+	width: 25%;
+	height: 15%;
+	border-radius: 15%;
+    padding-bottom: 4em;
+	margin: .6em;
+	float: left;
+	text-align: center;
+	transition: background .6s;
+	-webkit-transition: background .6s;
+	-moz-transition: background .6s;  
+}
+
+/*Media queries*/
+
+@media (min-width: 769px) {
+
+  .square {
+	width: 30%;
+	height: 30%;
+	border-radius: 15%;
+    padding-bottom: 4em;
+	margin: .6em;
+	float: left;
+}
+
+#hone {
+	font-size: 200%;
+
+}
